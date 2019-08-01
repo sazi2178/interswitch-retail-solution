@@ -86,6 +86,8 @@ def add_producer():
 
 	return 'all good'
 
+@app.route("/checkout")
+
 #run statement
 if __name__ == '__main__':
 	manager.run()
